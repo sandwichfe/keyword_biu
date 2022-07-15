@@ -10,63 +10,66 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.Date;
+import java.awt.event.KeyEvent;
 
-public class Demo1{
-    public static void main (String []args) {
-        new Login();
+public class Demo1 {
+    public static void main(String[] args) {
+        new ClickGo();
     }
 }
 
-class Login extends JFrame implements ActionListener{
-    JPanel jp3;
-    JButton login,exit;
-    Color color = new Color(255,255,255);
-    public Login() {
-        this.setTitle("click go");
+class ClickGo extends JFrame implements ActionListener {
+    private final String title = "click go";
+    JPanel panel;
+    JButton next, exit;
+    Color color = new Color(255, 255, 255);
 
-        login=new JButton("next");
-        login.addActionListener(this);
-        exit=new JButton("exit");
+    public ClickGo() {
+        this.setTitle(title);
+
+        next = new JButton("next");
+        next.addActionListener(this);
+        exit = new JButton("exit");
         exit.addActionListener(this);
 
-        jp3=new JPanel();
-        jp3.setBackground(color);
+        panel = new JPanel();
+        panel.setBackground(color);
         //背景颜色  大小
-        login.setBackground(color);
-        login.setSize(50,60);
+        next.setBackground(color);
+        next.setSize(50, 60);
         exit.setBackground(color);
-        exit.setSize(50,60);
+        exit.setSize(50, 60);
 
-
-        // 边框
-        //login.setBorder(null);
-        //exit.setBorder(null);
-
-        jp3.add(login);
-        jp3.add(exit);
+        panel.add(next);
+        panel.add(exit);
 
         // content背景颜色
         this.getContentPane().setBackground(Color.WHITE);
         this.setLayout(new FlowLayout());
-        this.add(jp3);
+        this.add(panel);
 
         this.toFront();
         this.setResizable(false);
-        this.setSize(400,80);
-        this.setLocation(1450,103);
+        this.setSize(400, 80);
+        this.setLocation(1450, 103);
         this.setVisible(true);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if(e.getSource()==login) {
+        if (e.getSource() == next) {
             //JOptionPane.showMessageDialog(null, "ok");
-            System.out.println("ctrl 3  "+new Date().toLocaleString());
-            Main.aut_mobs();
+            // 切换目标焦点
+            SwitchWindow.switchWin("tword – Demo1.java Administrator");
+            KeyPressUtil.keyPressSome(KeyEvent.VK_CONTROL, KeyEvent.VK_3);
+            //将焦点切换回来
+            SwitchWindow.switchWin("click go");
         }
-        if(e.getSource()==exit) {
+        // 退出
+        if (e.getSource() == exit) {
+            SwitchWindow.switchWin("tword – Demo1.java Administrator");
+            KeyPressUtil.keyPressSome(KeyEvent.VK_CONTROL, KeyEvent.VK_SHIFT,KeyEvent.VK_M);
             System.exit(0);
         }
     }

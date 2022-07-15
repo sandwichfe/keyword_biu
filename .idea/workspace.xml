@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c6d39d5-6f2f-4344-be54-9cf438205006" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/JNA66/JNAWIN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/JNA66/KeyboardHook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/SwitchWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/bin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/bin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/KeyPressUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tword/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tword/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tword/com/company/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/TryWithHWND.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +92,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/bin" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.rainbow.brackets" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -186,7 +181,7 @@
       <workItem from="1657528771382" duration="938000" />
       <workItem from="1657761891190" duration="618000" />
       <workItem from="1657765059712" duration="1481000" />
-      <workItem from="1657852017137" duration="13649000" />
+      <workItem from="1657852017137" duration="16513000" />
     </task>
     <servers />
   </component>
