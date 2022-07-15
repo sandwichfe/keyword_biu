@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c6d39d5-6f2f-4344-be54-9cf438205006" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/bin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/JNA66/JNAWIN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/JNA66/KeyboardHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/SwitchWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/bin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/bin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tword/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tword/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Demo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tword.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tword.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/TryWithHWND.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +97,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/bin" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.rainbow.brackets" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -102,17 +107,25 @@
       <recent name="F:\AA\tword\bin" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TryWithHWND">
-    <configuration name="CreateButton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.CreateButton" />
+  <component name="RunManager" selected="Application.Demo1">
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Demo1" />
       <module name="tword" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Demo1" />
+    <configuration name="JNAWIN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.JNA66.JNAWIN" />
+      <module name="tword" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeyboardHook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.JNA66.KeyboardHook" />
       <module name="tword" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
@@ -146,16 +159,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.CreateButton" />
       <item itemvalue="Application.Demo1" />
       <item itemvalue="Application.TryWithHWND" />
+      <item itemvalue="Application.JNAWIN" />
+      <item itemvalue="Application.KeyboardHook" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TryWithHWND" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Demo1" />
-        <item itemvalue="Application.CreateButton" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.KeyboardHook" />
+        <item itemvalue="Application.JNAWIN" />
+        <item itemvalue="Application.TryWithHWND" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +186,7 @@
       <workItem from="1657528771382" duration="938000" />
       <workItem from="1657761891190" duration="618000" />
       <workItem from="1657765059712" duration="1481000" />
-      <workItem from="1657852017137" duration="516000" />
+      <workItem from="1657852017137" duration="13649000" />
     </task>
     <servers />
   </component>

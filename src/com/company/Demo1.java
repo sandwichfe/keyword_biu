@@ -10,6 +10,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Date;
 
 public class Demo1{
     public static void main (String []args) {
@@ -22,6 +23,8 @@ class Login extends JFrame implements ActionListener{
     JButton login,exit;
     Color color = new Color(255,255,255);
     public Login() {
+        this.setTitle("click go");
+
         login=new JButton("next");
         login.addActionListener(this);
         exit=new JButton("exit");
@@ -52,7 +55,6 @@ class Login extends JFrame implements ActionListener{
         this.setResizable(false);
         this.setSize(400,80);
         this.setLocation(1450,103);
-        //this.setLocationRelativeTo(null);
         this.setVisible(true);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
@@ -61,7 +63,7 @@ class Login extends JFrame implements ActionListener{
     public void actionPerformed(ActionEvent e) {
         if(e.getSource()==login) {
             //JOptionPane.showMessageDialog(null, "ok");
-            System.out.println("ctrl 3");
+            System.out.println("ctrl 3  "+new Date().toLocaleString());
             Main.aut_mobs();
         }
         if(e.getSource()==exit) {
