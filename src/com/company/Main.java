@@ -1,5 +1,8 @@
 package com.company;
 
+import com.sun.jna.platform.win32.User32;
+import com.sun.jna.platform.win32.WinDef;
+
 import java.awt.*;
 import java.awt.event.KeyEvent;
 
@@ -7,6 +10,20 @@ public class Main {
 
     public static void main(String[] args) {
         //aut_mobs();
+
+        WinDef.HWND hwnd = User32.INSTANCE.FindWindow(null, "Postman");
+        if (hwnd == null) {
+            System.out.println("TSITSMonitor is not running");
+        } else {
+            WinDef.RECT win_rect = new  WinDef.RECT();
+            User32.INSTANCE.GetWindowRect(hwnd, win_rect);
+            int win_width = win_rect.right - win_rect.left;
+            int win_height = win_rect.bottom - win_rect.top;
+
+            User32.INSTANCE.MoveWindow(hwnd, 300, 100, win_width, win_height, true);
+        }
+
+
     }
 
 

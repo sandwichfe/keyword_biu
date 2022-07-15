@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c6d39d5-6f2f-4344-be54-9cf438205006" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/bin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tword/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tword/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Demo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tword.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tword.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,12 +89,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.Demo1">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\AA\tword\bin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TryWithHWND">
     <configuration name="CreateButton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.CreateButton" />
       <module name="tword" />
@@ -120,6 +130,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TryWithHWND" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.TryWithHWND" />
+      <module name="tword" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
@@ -130,12 +148,14 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.CreateButton" />
       <item itemvalue="Application.Demo1" />
+      <item itemvalue="Application.TryWithHWND" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TryWithHWND" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.CreateButton" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +167,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657504465629</updated>
-      <workItem from="1657504467635" duration="6144000" />
+      <workItem from="1657504467635" duration="6594000" />
+      <workItem from="1657528771382" duration="938000" />
+      <workItem from="1657761891190" duration="618000" />
+      <workItem from="1657765059712" duration="1481000" />
+      <workItem from="1657852017137" duration="516000" />
     </task>
     <servers />
   </component>
