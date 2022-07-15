@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c6d39d5-6f2f-4344-be54-9cf438205006" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/KeyPressUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AppStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/clickConstants/ClickConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tword/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ClickGo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -181,7 +181,7 @@
       <workItem from="1657528771382" duration="938000" />
       <workItem from="1657761891190" duration="618000" />
       <workItem from="1657765059712" duration="1481000" />
-      <workItem from="1657852017137" duration="16513000" />
+      <workItem from="1657852017137" duration="16878000" />
     </task>
     <servers />
   </component>

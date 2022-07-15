@@ -6,26 +6,23 @@ package com.company;
  * @since 2022/7/11 10:21
  */
 
+import com.company.clickConstants.ClickConstants;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 
-public class Demo1 {
-    public static void main(String[] args) {
-        new ClickGo();
-    }
-}
 
 class ClickGo extends JFrame implements ActionListener {
-    private final String title = "click go";
+
     JPanel panel;
     JButton next, exit;
     Color color = new Color(255, 255, 255);
 
     public ClickGo() {
-        this.setTitle(title);
+        this.setTitle(ClickConstants.appTitle);
 
         next = new JButton("next");
         next.addActionListener(this);
@@ -61,14 +58,14 @@ class ClickGo extends JFrame implements ActionListener {
         if (e.getSource() == next) {
             //JOptionPane.showMessageDialog(null, "ok");
             // 切换目标焦点
-            SwitchWindow.switchWin("tword – Demo1.java Administrator");
+            SwitchWindow.switchWin("tword – ClickGo.java Administrator");
             KeyPressUtil.keyPressSome(KeyEvent.VK_CONTROL, KeyEvent.VK_3);
             //将焦点切换回来
-            SwitchWindow.switchWin("click go");
+            SwitchWindow.switchWin(ClickConstants.appTitle);
         }
         // 退出
         if (e.getSource() == exit) {
-            SwitchWindow.switchWin("tword – Demo1.java Administrator");
+            SwitchWindow.switchWin("tword – ClickGo.java Administrator");
             KeyPressUtil.keyPressSome(KeyEvent.VK_CONTROL, KeyEvent.VK_SHIFT,KeyEvent.VK_M);
             System.exit(0);
         }
