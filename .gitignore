@@ -3,7 +3,7 @@
 .idea
 # Log file
 *.log
-
+out/
 # BlueJ files
 *.ctxt
 

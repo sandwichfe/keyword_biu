@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="tword:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6c6d39d5-6f2f-4344-be54-9cf438205006" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/conf.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ifameTest/CardLayoutExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ifameTest/DrawerPaneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ifameTest/TestJProgressBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ifameTest/frameExit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ClickGo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ClickGo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/SwitchWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SwitchWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,8 +108,11 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RebelAgentSelection">
@@ -105,6 +120,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\AA\tword" />
       <recent name="F:\AA\tword\resources\img" />
       <recent name="F:\AA\tword\bin" />
     </key>
@@ -118,37 +134,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Demo1" />
+    <configuration name="CardLayoutExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ifameTest.CardLayoutExample" />
       <module name="tword" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Example" />
+    <configuration name="DrawerPaneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ifameTest.DrawerPaneTest" />
       <module name="tword" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeyboardHook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.JNA66.KeyboardHook" />
+    <configuration name="TestJProgressBar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ifameTest.TestJProgressBar" />
       <module name="tword" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="tword" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,20 +164,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="frameExit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ifameTest.frameExit" />
+      <module name="tword" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Demo1" />
-      <item itemvalue="Application.KeyboardHook" />
+      <item itemvalue="Application.frameExit" />
+      <item itemvalue="Application.CardLayoutExample" />
+      <item itemvalue="Application.DrawerPaneTest" />
+      <item itemvalue="Application.TestJProgressBar" />
       <item itemvalue="Application.AppStart" />
-      <item itemvalue="Application.Example" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Example" />
         <item itemvalue="Application.AppStart" />
-        <item itemvalue="Application.Demo1" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.KeyboardHook" />
+        <item itemvalue="Application.TestJProgressBar" />
+        <item itemvalue="Application.DrawerPaneTest" />
+        <item itemvalue="Application.CardLayoutExample" />
+        <item itemvalue="Application.frameExit" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +202,8 @@
       <workItem from="1657761891190" duration="618000" />
       <workItem from="1657765059712" duration="1481000" />
       <workItem from="1657852017137" duration="17694000" />
-      <workItem from="1657951159516" duration="1976000" />
+      <workItem from="1657951159516" duration="5979000" />
+      <workItem from="1657962386363" duration="2459000" />
     </task>
     <servers />
   </component>
