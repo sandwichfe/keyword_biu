@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c6d39d5-6f2f-4344-be54-9cf438205006" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/AppStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/clickConstants/ClickConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ClickGo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ClickGo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ClickGo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tword.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tword.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +90,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/img" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -99,10 +99,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\AA\tword\resources\img" />
       <recent name="F:\AA\tword\bin" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo1">
+  <component name="RunManager" selected="Application.Example">
+    <configuration name="AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.AppStart" />
+      <module name="tword" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Demo1" />
       <module name="tword" />
@@ -111,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JNAWIN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.JNA66.JNAWIN" />
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Example" />
       <module name="tword" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
@@ -138,14 +147,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryWithHWND" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.TryWithHWND" />
-      <module name="tword" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
@@ -155,17 +156,17 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Demo1" />
-      <item itemvalue="Application.TryWithHWND" />
-      <item itemvalue="Application.JNAWIN" />
       <item itemvalue="Application.KeyboardHook" />
+      <item itemvalue="Application.AppStart" />
+      <item itemvalue="Application.Example" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example" />
+        <item itemvalue="Application.AppStart" />
         <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.KeyboardHook" />
-        <item itemvalue="Application.JNAWIN" />
-        <item itemvalue="Application.TryWithHWND" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +182,8 @@
       <workItem from="1657528771382" duration="938000" />
       <workItem from="1657761891190" duration="618000" />
       <workItem from="1657765059712" duration="1481000" />
-      <workItem from="1657852017137" duration="16878000" />
+      <workItem from="1657852017137" duration="17694000" />
+      <workItem from="1657951159516" duration="1629000" />
     </task>
     <servers />
   </component>
