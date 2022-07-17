@@ -116,7 +116,8 @@ class ClickGo extends JFrame implements ActionListener {
         //获取jar或者项目所在目录下的上一级目录的conf.properties文件
         File file = new File(".", "conf.properties");
         try {
-            properties.load(new FileInputStream(file));
+            BufferedReader bf = new BufferedReader(new InputStreamReader(new FileInputStream(file), "UTF-8"));
+            properties.load(bf);
         } catch (Exception e) {
             e.printStackTrace();
             JOptionPane.showMessageDialog(null, e.getMessage());
@@ -124,6 +125,7 @@ class ClickGo extends JFrame implements ActionListener {
         String targetWindow = (String) properties.get("ideaWindowName");
         this.ideaWindowName = targetWindow;
     }
+
 }
 
 

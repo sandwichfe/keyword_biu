@@ -7,15 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c6d39d5-6f2f-4344-be54-9cf438205006" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/conf.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ifameTest/CardLayoutExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ifameTest/DrawerPaneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ifameTest/TestJProgressBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ifameTest/frameExit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/ClickGo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ClickGo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/SwitchWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SwitchWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +196,8 @@
       <workItem from="1657765059712" duration="1481000" />
       <workItem from="1657852017137" duration="17694000" />
       <workItem from="1657951159516" duration="5979000" />
-      <workItem from="1657962386363" duration="2459000" />
+      <workItem from="1657962386363" duration="2881000" />
+      <workItem from="1658025197037" duration="632000" />
     </task>
     <servers />
   </component>
