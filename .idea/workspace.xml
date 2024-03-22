@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="tword:jar" />
+      <artifact name="netSetting" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c6d39d5-6f2f-4344-be54-9cf438205006" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/TimeNotifiy/GridBagConstraintsUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/TimeNotifiy/TimeInputDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/TimeNotifiy/WindowsNotificationExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ClickGo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ClickGo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +42,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BmHiEjrw9oBoxbyL3RVuZKNZZo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
@@ -99,52 +105,66 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/META-INF" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\AA\tword\resources\META-INF" />
+      <recent name="F:\AA\tword\resources" />
       <recent name="F:\AA\tword" />
       <recent name="F:\AA\tword\resources\img" />
       <recent name="F:\AA\tword\bin" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.TimeNotifiy" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.AppStart">
-    <configuration name="AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.AppStart" />
+  <component name="RunManager" selected="Application.NetSetting">
+    <configuration name="BeautifulDialogExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.NetSetting.BeautifulDialogExample" />
       <module name="tword" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CardLayoutExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ifameTest.CardLayoutExample" />
+    <configuration name="NetSetting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.NetSetting.NetSetting" />
       <module name="tword" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DrawerPaneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ifameTest.DrawerPaneTest" />
+    <configuration name="PowerShellOutputGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.TimeNotifiy.PowerShellOutputGUI" />
       <module name="tword" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestJProgressBar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ifameTest.TestJProgressBar" />
+    <configuration name="TT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.NetSetting.TT" />
+      <module name="tword" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitingDialogExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.NetSetting.WaitingDialogExample" />
       <module name="tword" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
@@ -157,28 +177,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="frameExit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ifameTest.frameExit" />
-      <module name="tword" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.frameExit" />
-      <item itemvalue="Application.CardLayoutExample" />
-      <item itemvalue="Application.DrawerPaneTest" />
-      <item itemvalue="Application.TestJProgressBar" />
-      <item itemvalue="Application.AppStart" />
+      <item itemvalue="Application.PowerShellOutputGUI" />
+      <item itemvalue="Application.NetSetting" />
+      <item itemvalue="Application.WaitingDialogExample" />
+      <item itemvalue="Application.BeautifulDialogExample" />
+      <item itemvalue="Application.TT" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppStart" />
-        <item itemvalue="Application.TestJProgressBar" />
-        <item itemvalue="Application.DrawerPaneTest" />
-        <item itemvalue="Application.CardLayoutExample" />
-        <item itemvalue="Application.frameExit" />
+        <item itemvalue="Application.NetSetting" />
+        <item itemvalue="Application.TT" />
+        <item itemvalue="Application.WaitingDialogExample" />
+        <item itemvalue="Application.BeautifulDialogExample" />
+        <item itemvalue="Application.PowerShellOutputGUI" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +209,16 @@
       <workItem from="1657852017137" duration="17694000" />
       <workItem from="1657951159516" duration="5979000" />
       <workItem from="1657962386363" duration="2881000" />
-      <workItem from="1658025197037" duration="632000" />
+      <workItem from="1658025197037" duration="886000" />
+      <workItem from="1681116431181" duration="609000" />
+      <workItem from="1684394875180" duration="2000" />
+      <workItem from="1705296162899" duration="2171000" />
+      <workItem from="1706073110744" duration="1799000" />
+      <workItem from="1706232090357" duration="6107000" />
+      <workItem from="1706246985784" duration="1303000" />
+      <workItem from="1706248325301" duration="48000" />
+      <workItem from="1711007435695" duration="8506000" />
+      <workItem from="1711068609862" duration="24687000" />
     </task>
     <servers />
   </component>
